@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('./iconfont.ttf?t=1640327582839') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-star:before {
+  content: "\e8be";
+}
+
+.demo {
+  color: blue;
+}
+
+body{
+  background: url('../assets/png/demo.png');
+  background-repeat: no-repeat;
+}
